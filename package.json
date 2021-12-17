@@ -1,0 +1,22 @@
+{
+  "name": "exam1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsujeong/test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsujeong/test/issues"
+  },
+  "homepage": "https://github.com/jsujeong/test#readme",
+  "dependencies": {
+    "react": "^17.0.2"
+  }
+}
