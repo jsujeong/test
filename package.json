@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-jay": "webpack --mode=development --entry=./src/tt.js",
+    "start": "webpack serve --mode=development --entry=./src/tt.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,10 @@
   "homepage": "https://github.com/jsujeong/test#readme",
   "dependencies": {
     "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
   }
 }
